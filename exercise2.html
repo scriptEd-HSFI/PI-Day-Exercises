@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 2</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="exercise2.js"></script>    
+</head>
+<body>
+<div class="container">
+    <h1>Exercise 2</h1>
+    <p>Create a function that takes a number (a radius) as its argument, and returns the area of the cricle with that radius. Round the area to the closest integer. It doesn't matter if you round up or down</p>
+    <div class="output">
+        <code>No Output</code>
+    </div>
+</div>
+<script>
+    var output = document.querySelectorAll('.output code')[0];
+    var calculateAreaOutput = calculateArea(314);
+    output.innerHTML = 'calculateArea returned =\n' + calculateAreaOutput;
+</script>
+</body>
+</html>

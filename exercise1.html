@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 1</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="exercise1.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Exercise 1</h1>
+    <p>Create a function that generates an ARRAY of 6 random integers (NUMBERS) between 0 and 60. Use a while or for-loop, Math.random(), Math.ceil() and/or Math.floor().</p>
+    <div class="output">
+        <code>No Output</code>
+    </div>
+</div>
+<script>
+    var output = document.querySelectorAll('.output code')[0];
+    var randomNumbersOutput = randomNumbers();
+    output.innerHTML = 'randomNumbers returned =\n' + randomNumbersOutput;
+</script>
+</body>
+</html>

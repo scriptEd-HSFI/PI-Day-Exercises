@@ -33,3 +33,6 @@ function randomNumbers() {
     
     return arrayOfRandomNumbers; 
 }
+
+
+window.randomNumbers = randomNumbers;

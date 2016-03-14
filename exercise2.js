@@ -27,3 +27,5 @@ function calculateArea(radius) {
     
     return area; 
 }
+
+window.calculateArea = calculateArea;
